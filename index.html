@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/icon-128x128.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>What Watch</title>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="anim3">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+
+    <h1>What Watch</h1>
+
+    <form id="searchForm">
+      <input
+        type="text"
+        placeholder="Entrez le titre d'un film"
+        id="searchInput"
+      /><br />
+      <input type="submit" value="Recherchez" />
+    </form>
+    <div class="result-container">
+      <ul id="result"></ul>
+      <img src="./assets/icons/icon-512x512.png" alt="logo" />
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
